@@ -1,6 +1,6 @@
-# FINAL PROJECT — Cấu Trúc Dữ Liệu & Giải Thuật
+# FINAL PROJECT — Lập trình Python
 
-> **Môn:** Cấu Trúc Dữ Liệu & Giải Thuật &nbsp;|&nbsp; **GV:** TVS  
+> **Môn:** Lập trình Python &nbsp;|&nbsp; **GV:** TVS  
 > **Hình thức:** Cá nhân hoặc nhóm 2 người  
 > **Ngôn ngữ:** Python (, compile được bằng `g++ -std=Python`)  
 > **Yêu cầu tối thiểu:** Áp dụng **ít nhất 3** cấu trúc dữ liệu đã học
