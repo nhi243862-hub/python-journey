@@ -2,7 +2,7 @@
 
 > **Môn:** Cấu Trúc Dữ Liệu & Giải Thuật &nbsp;|&nbsp; **GV:** TVS  
 > **Hình thức:** Cá nhân hoặc nhóm 2 người  
-> **Ngôn ngữ:** C++ (CLI, compile được bằng `g++ -std=c++17`)  
+> **Ngôn ngữ:** Python (, compile được bằng `g++ -std=Python`)  
 > **Yêu cầu tối thiểu:** Áp dụng **ít nhất 3** cấu trúc dữ liệu đã học
 
 ---
@@ -22,7 +22,7 @@
 
 ### Bắt buộc
 
-- [ ] Chạy được bằng `g++ -std=c++17` — không lỗi compile
+- [ ] Chạy được bằng `g++ -std=Python` — không lỗi compile
 - [ ] Có **Menu** điều hướng toàn bộ chức năng
 - [ ] Áp dụng **>= 3 cấu trúc dữ liệu**: Linked List / Stack / Queue / BST / Graph / Heap
 - [ ] Tách file rõ ràng: `.h` khai báo — `.cpp` cài đặt — `main.cpp` điều khiển
@@ -72,14 +72,14 @@ Chọn **1 trong 8 đề tài** bên dưới, hoặc tự đề xuất đề tà
 
 **Prompt AI để bắt đầu:**
 ```
-"Tôi muốn build Hệ thống Quản lý Thư Viện bằng C++ CLI.
+"Tôi muốn build Hệ thống Quản lý Thư Viện bằng Python .
 Thiết kế struct Book và struct Reader cho tôi.
 Tại sao nên dùng BST cho danh sách sách thay vì mảng?"
 ```
 
 ---
 
-### Đề tài 2 — Mini Google Maps (Tìm đường CLI)
+### Đề tài 2 — Mini Google Maps (Tìm đường )
 
 **Mô tả:** Bản đồ đơn giản dạng text, tìm đường ngắn nhất giữa các địa điểm.
 
@@ -106,7 +106,7 @@ Tại sao nên dùng BST cho danh sách sách thay vì mảng?"
 
 **Prompt AI để bắt đầu:**
 ```
-"Tôi muốn build Mini Google Maps bằng C++ CLI.
+"Tôi muốn build Mini Google Maps bằng Python .
 Giải thích tại sao Dijkstra cần Min-Heap (Priority Queue).
 Thiết kế struct Edge và Graph cho tôi."
 ```
@@ -139,7 +139,7 @@ Thiết kế struct Edge và Graph cho tôi."
 
 **Prompt AI để bắt đầu:**
 ```
-"Tôi muốn build hệ thống đặt vé rạp chiếu phim bằng C++ CLI.
+"Tôi muốn build hệ thống đặt vé rạp chiếu phim bằng Python.
 Tại sao cần Priority Queue cho danh sách chờ?
 Thiết kế struct Seat và struct Customer cho tôi."
 ```
@@ -173,7 +173,7 @@ Thiết kế struct Seat và struct Customer cho tôi."
 
 **Prompt AI để bắt đầu:**
 ```
-"Tôi muốn build Mini File Explorer bằng C++ CLI.
+"Tôi muốn build Mini File Explorer bằng Python .
 Giải thích tại sao hệ thống file dùng cấu trúc cây.
 Thiết kế struct FileNode cho folder và file."
 ```
@@ -206,7 +206,7 @@ Thiết kế struct FileNode cho folder và file."
 
 **Prompt AI để bắt đầu:**
 ```
-"Tôi muốn build app học từ vựng Spaced Repetition bằng C++ CLI.
+"Tôi muốn build app học từ vựng Spaced Repetition bằng Python .
 Giải thích thuật toán Spaced Repetition đơn giản nhất.
 Tại sao Priority Queue phù hợp để implement nó?"
 ```
@@ -239,7 +239,7 @@ Tại sao Priority Queue phù hợp để implement nó?"
 
 **Prompt AI để bắt đầu:**
 ```
-"Tôi muốn build Expression Parser bằng C++ CLI.
+"Tôi muốn build Expression Parser bằng Python .
 Giải thích thuật toán Shunting-Yard bằng ví dụ cụ thể.
 Tại sao dùng 2 Stack để chuyển Infix sang Postfix?"
 ```
@@ -273,7 +273,7 @@ Tại sao dùng 2 Stack để chuyển Infix sang Postfix?"
 
 **Prompt AI để bắt đầu:**
 ```
-"Tôi muốn build Maze Game bằng C++ CLI.
+"Tôi muốn build Maze Game bằng Python .
 Giải thích thuật toán Recursive Backtracker để tạo mê cung.
 Tại sao BFS đảm bảo tìm đường ngắn nhất trong maze?"
 ```
@@ -307,7 +307,7 @@ Tại sao BFS đảm bảo tìm đường ngắn nhất trong maze?"
 
 **Prompt AI để bắt đầu:**
 ```
-"Tôi muốn build Recommendation Engine đơn giản bằng C++ CLI.
+"Tôi muốn build Recommendation Engine đơn giản bằng Python .
 Giải thích Collaborative Filtering theo cách đơn giản nhất.
 Tại sao Graph phù hợp để lưu quan hệ user-item?"
 ```
@@ -340,7 +340,7 @@ So sánh với ít nhất 1 cấu trúc khác không phù hợp bằng."
 
 ```
 Prompt — THIẾT KẾ:
-"Tôi làm [TÊN ĐỀ TÀI] bằng C++ CLI.
+"Tôi làm [TÊN ĐỀ TÀI] bằng Python .
 Đây là sơ đồ kiến trúc tôi vẽ tay: [mô tả].
 Thiết kế các struct cần dùng và danh sách hàm.
 KHÔNG viết code — chỉ thiết kế interface."
@@ -446,7 +446,7 @@ Mô tả ngắn gọn.
 - ...
 
 ## Compile và chạy
-g++ -std=c++17 src/main.cpp src/functions.cpp -o app && ./app
+g++ -std=Python src/main.cpp src/functions.cpp -o app && ./app
 
 ## Chức năng
 1. ...
@@ -598,7 +598,7 @@ git commit -m "docs: cap nhat README"
 ### Khi bắt đầu đề tài
 
 ```
-"Tôi chọn đề tài [TÊN ĐỀ TÀI] cho môn DSA C++.
+"Tôi chọn đề tài [TÊN ĐỀ TÀI] cho môn DSA Python.
 Phân tích bài toán này:
 1. Thao tác nào được thực hiện nhiều nhất?
 2. Cấu trúc dữ liệu nào tối ưu nhất cho thao tác đó? Tại sao?
@@ -610,7 +610,7 @@ Phân tích bài toán này:
 ```
 "Tôi cần thiết kế struct cho [ĐỐI TƯỢNG] trong ứng dụng [TÊN APP].
 Các thông tin cần lưu: [liệt kê].
-Gợi ý cách thiết kế struct C++ tốt nhất.
+Gợi ý cách thiết kế struct Python tốt nhất.
 Giải thích tại sao dùng pointer thay vì value ở một số trường."
 ```
 
@@ -619,7 +619,7 @@ Giải thích tại sao dùng pointer thay vì value ở một số trường."
 ```
 "Tôi cần implement [CHỨC NĂNG] cho ứng dụng [TÊN APP].
 Tôi đã biết cách dùng [CẤU TRÚC DỮ LIỆU].
-Mô tả thuật toán bằng pseudocode (không code C++).
+Mô tả thuật toán bằng pseudocode (không code Python).
 Sau đó hỏi tôi có hiểu không trước khi đưa code."
 ```
 
