@@ -10,9 +10,13 @@ Chạy file này bằng: python ex01_hello.py
 # TODO 1: In ra dòng chữ "Hello, World!"
 # Viết code ở đây:
 
+print("Hello, World!")
+
 
 # TODO 2: In ra tên của bạn trên một dòng riêng
 # Viết code ở đây:
+
+print("Nguyen Thi Tuyet Nhi")
 
 
 # TODO 3: In ra 3 điều bạn thích, mỗi điều trên một dòng
@@ -21,6 +25,10 @@ Chạy file này bằng: python ex01_hello.py
 # Tôi thích nghe nhạc
 # Tôi thích code Python
 # Viết code ở đây:
+
+print("Toi thich an pho")
+print("Toi thich nghe nhac")
+print("Toi thich code Python")
 
 
 # TODO 4: In ra một hình chữ nhật bằng dấu *
@@ -31,6 +39,11 @@ Chạy file này bằng: python ex01_hello.py
 # *****
 # Viết code ở đây:
 
+print("*****")
+print("*   *")
+print("*   *")
+print("*****")
+
 
 # TODO 5 (Thử thách): In ra tên bạn bằng ký tự đặc biệt
 # Ví dụ nếu tên là "HI":
@@ -40,6 +53,12 @@ Chạy file này bằng: python ex01_hello.py
 # H   H   I
 # H   H  III
 # Viết code ở đây:
+
+print("N   N  H   H  III")
+print("NN  N  H   H   I ")
+print("N N N  HHHHH   I ")
+print("N  NN  H   H   I ")
+print("N   N  H   H  III")
 
 
 print("\n🎉 Chúc mừng! Bạn đã hoàn thành bài tập đầu tiên!")
